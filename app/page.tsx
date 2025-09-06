@@ -1,11 +1,14 @@
-import Button from "@/components/atoms/Button/Button";
-import Text from "@/components/atoms/Text/Text";
+import Header from "@/components/organism/Header/Header";
+import Container from "@/components/atoms/Container/Container";
+import Hero from "@/components/organism/Hero/Hero";
+import HotelCard from "@/components/organism/HotelCard/HotelCard";
 
 export default function Home() {
   return (
-    <div>
-      <Button />
-      <Text>helloo</Text>
-    </div>
+    <Container>
+      <Header />
+      <Hero />
+      <HotelCard />
+    </Container>
   );
 }

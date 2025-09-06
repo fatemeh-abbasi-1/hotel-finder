@@ -1,7 +1,6 @@
-export type TextProps = {
+export type TitleProps = {
   children: React.ReactNode;
-  variant : 'large' | 'medium'
   className?: string;
   bg?: boolean;
-  
+  variant: "large" | "medium";
 };
