@@ -4,7 +4,7 @@ import Text from "@/components/atoms/Text/Text";
 const UserInfo = () => {
   return (
     <div className="flex gap-3 p-3">
-      <Text>fatemeh</Text>
+      <Text variant="medium">fatemeh</Text>
       {/* <Image
         alt="user-image"
         // src={""}

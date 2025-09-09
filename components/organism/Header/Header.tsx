@@ -6,7 +6,7 @@ import UserInfo from "@/components/molecules/UserInfo/UserInfo";
 const Header = () => {
   return (
     <header className="w-full h-28 flex justify-between py-8">
-      <Text>Logo</Text>
+      <Text variant="medium">Logo</Text>
       <div className="flex">
         <Navbar />
         {/* <UserInfo /> */}
