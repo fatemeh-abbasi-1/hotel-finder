@@ -6,7 +6,9 @@ const CreateButton = () => {
   return (
     <div className="flex gap-2">
       <IoIosAddCircleOutline className="text-3xl" />
-      <Text className="mr-6">Create</Text>
+      <Text className="mr-6" variant="medium">
+        Create
+      </Text>
     </div>
   );
 };
