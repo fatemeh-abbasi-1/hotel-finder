@@ -6,7 +6,7 @@ const SignOutButton = () => {
   return (
     <div className="flex gap-2">
       <IoExitOutline className="text-3xl" />
-      <Text>Sign Out</Text>
+      <Text variant="medium">Sign Out</Text>
     </div>
   );
 };
